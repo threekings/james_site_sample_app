@@ -1,4 +1,8 @@
 module ApplicationHelper
+  
+  def logo
+    @title = logo
+  end
 
   # Return a title on a per-page basis.
   def title

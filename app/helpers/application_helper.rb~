@@ -1,8 +1,12 @@
 module ApplicationHelper
+  
+  def logo
+    @title = link_to logo
+  end
 
   # Return a title on a per-page basis.
   def title
-    base_title = "Ruby on Rails Tutorial Sample App"
+    base_title = "James Martin Dela Cruz - Website"
     if @title.nil?
       base_title
     else
